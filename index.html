@@ -1,49 +1,36 @@
-            <!-- Destek -->
-            <div id="support" class="tab-content">
-                <div class="section">
-                    <h2>Destek Merkezi</h2>
-                    <p>KPSS Boost uygulaması ile ilgili herhangi bir sorun yaşadığınızda veya yardıma ihtiyacınız olduğunda bizimle iletişime geçebilirsiniz.</p>
-                </div>
-
                 <div class="contact-form">
-                    <h3>İletişim</h3>
-                    <div style="text-align: center; padding: 30px; background: #f8f9fa; border-radius: 15px; margin: 20px 0;">
-                        <i class="fas fa-envelope" style="font-size: 3rem; color: #667eea; margin-bottom: 20px;"></i>
-                        <h4 style="color: #495057; margin-bottom: 15px;">Destek için E-posta Gönderin</h4>
-                        <p style="color: #6c757d; margin-bottom: 25px;">KPSS Boost uygulaması ile ilgili herhangi bir sorun yaşadığınızda veya yardıma ihtiyacınız olduğunda aşağıdaki e-posta adresinden bizimle iletişime geçebilirsiniz.</p>
-                        <a href="mailto:bulentuygaralpkaya@gmail.com" class="btn" style="text-decoration: none; display: inline-block;">
-                            <i class="fas fa-envelope"></i> bulentuygaralpkaya@gmail.com
-                        </a>
-                    </div>
+                    <h3>İletişim Formu</h3>
+                    <form id="supportForm">
+                        <div class="form-group">
+                            <label for="name">Ad Soyad *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-posta *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Konu *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Konu seçiniz</option>
+                                <option value="technical">Teknik Sorun</option>
+                                <option value="content">İçerik Sorunu</option>
+                                <option value="payment">Ödeme Sorunu</option>
+                                <option value="suggestion">Öneri</option>
+                                <option value="other">Diğer</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mesajınız *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Sorununuzu detaylı bir şekilde açıklayınız..."></textarea>
+                        </div>
+                        <button type="submit" class="btn">
+                            <i class="fas fa-paper-plane"></i> Gönder
+                        </button>
+                    </form>
                 </div>
-
-                <div class="contact-info">
-                    <div class="contact-card">
-                        <i class="fas fa-envelope"></i>
-                        <h4>E-posta</h4>
-                        <p>bulentuygaralpkaya@gmail.com</p>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fas fa-clock"></i>
-                        <h4>Yanıt Süresi</h4>
-                        <p>24 saat içinde</p>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fas fa-globe"></i>
-                        <h4>Uygulama</h4>
-                        <p>App Store</p>
-                    </div>
-                </div>
-            </div>
 
 ->
-
-            <!-- Destek -->
-            <div id="support" class="tab-content">
-                <div class="section">
-                    <h2>Destek Merkezi</h2>
-                    <p>KPSS Boost uygulaması ile ilgili herhangi bir sorun yaşadığınızda veya yardıma ihtiyacınız olduğunda bizimle iletişime geçebilirsiniz.</p>
-                </div>
 
                 <div class="contact-form">
                     <div style="text-align: center; padding: 50px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; margin: 30px 0; color: white;">
@@ -55,22 +42,3 @@
                         </a>
                     </div>
                 </div>
-
-                <div class="contact-info">
-                    <div class="contact-card">
-                        <i class="fas fa-envelope"></i>
-                        <h4>E-posta</h4>
-                        <p>bulentuygaralpkaya@gmail.com</p>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fas fa-clock"></i>
-                        <h4>Yanıt Süresi</h4>
-                        <p>24 saat içinde</p>
-                    </div>
-                    <div class="contact-card">
-                        <i class="fas fa-globe"></i>
-                        <h4>Uygulama</h4>
-                        <p>App Store</p>
-                    </div>
-                </div>
-            </div>
